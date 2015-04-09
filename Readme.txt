@@ -1,6 +1,6 @@
-��������΢��ƽ̨���ж��ο�����
-1.����Ҫʹ��ע�Ṧ�ܣ�����Ҫ����������Ϣ��
-config/spring-email.xml����ص���Ϣ
-com.fjx.common.mail.vo��fromUser��Ϣ
-2.�޸����ݿ���Ϣ
-config/db.properties�������Ϣ
+﻿基于天天微信平台进行二次开发：
+1.若需要使用注册功能，则需要添加邮箱信息：
+config/spring-email.xml中相关的信息
+com.fjx.common.mail.vo中fromUser信息
+2.修改数据库信息
+config/db.properties中相关信息
