@@ -6,7 +6,7 @@ import com.encryptcore.EnCryptCore;
 public final class PasswordUtil {
 
     private static String key = "fengjx-wechat-!@#";
-
+	
     private static EnCryptCore core = new EnCryptCore();
 
     public static String encode(String conent) {
