@@ -42,7 +42,7 @@ public class InServiceEngineImpl implements InServiceEngine {
 				logger.warn("未识别到消息动作分发器，此消息不做处理");
 				return "";
 			}
-			//已激活状态，同时fromUserName与公众号ID不符，视为无效请求
+			//已激活状态，同时toUserName与公众号ID不符，视为无效请求
 			if (WechatPublicAccountEntity.VALID_STATE_ACTIVATE.equals(accountEntity.getValid_state())
 					&& !requestMap.get("ToUserName").equals(accountEntity.getAccount_id())) {
 				logger.warn("ToUserName["+requestMap.get("ToUserName")+"]无效，返回空不做响应");
