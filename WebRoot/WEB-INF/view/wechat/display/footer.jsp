@@ -29,8 +29,8 @@
 			<script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
         </h4>
       </div>
-    
-    
+
+
       <div class="col-sm-6  col-lg-5 col-lg-offset-1">
         <div class="row about">
           <div class="col-xs-4">

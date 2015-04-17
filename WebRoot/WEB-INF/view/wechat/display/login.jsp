@@ -72,7 +72,7 @@
 		</div>
 	</div>	<!-- /container -->
 	
-	<%@include file="/WEB-INF/view/wechat/display/footer.jsp"%>
+
 	<jsp:include page="/WEB-INF/view/common/inc/display.jsp"></jsp:include>
 	<script src="<%=resourceUrl%>/js/jquery.form.js" type="text/javascript"></script>
 	<script src="<%=resourceUrl%>/script/display/login.js" type="text/javascript"></script>

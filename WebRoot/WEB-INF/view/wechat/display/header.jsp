@@ -36,12 +36,14 @@
         <li><a href="<%=domain %>/contact">联系我们</a></li>
         <%-- <li><a href="<%=domain %>/about">关于我们</a></li> --%>
         <li><a href="http://fengjxblog.sinaapp.com/?page_id=2" target="_blank">关于我们</a></li>
+        <!--
         <form role="search" class="navbar-form navbar-left">
 		  <div class="form-group">
 		  	<input type="text" placeholder="搜索" class="form-control">
 		  </div>
 		  <button class="btn btn-default" type="submit">查找</button>
 		</form>
+		-->
       </ul>
       <ul class="nav navbar-nav navbar-right">
       	<c:choose>
