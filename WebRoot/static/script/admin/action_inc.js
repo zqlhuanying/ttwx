@@ -99,7 +99,7 @@ function initMaterials(){
  * 加载素材
  */
 function loadMaterials(page,rows){
-	
+
 	$.ajax({
 		url :  domain + '/admin/material/page?msg_type=news',
 		data : "page="+page+"&rows="+rows,
