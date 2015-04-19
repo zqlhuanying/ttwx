@@ -57,6 +57,6 @@ public interface WechatMenuService extends IBaseAbstractService<WechatMenuEntity
 	 * @return
 	 */
 	public Menu loadMenu(SysUserEntity sysUser);
-	
-	
+
+
 }

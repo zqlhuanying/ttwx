@@ -8,6 +8,7 @@
     <link href="<%=resourceUrl%>/css/material.css" rel="stylesheet" type="text/css"/>
     <script src="<%=resourceUrl%>/js/jquery.json-2.4.min.js" type="text/javascript" charset="UTF-8"></script>
     <script src="<%=resourceUrl%>/js/jquery.xml2json.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="<%=resourceUrl%>/script/admin/msg_group.js" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body>
 <!--<div id="edit_tabs" class="easyui-tabs" data-options="fit:true" style="height:390px">
@@ -51,12 +52,14 @@
             </div>
         </div>
     </div>-->
+
     <jsp:include page="/WEB-INF/view/wechat/admin/menu/action_inc.jsp">
         <jsp:param name="tag_image" value="hide"/>
         <jsp:param name="tag_voice" value="hide"/>
         <jsp:param name="tag_video" value="hide"/>
         <jsp:param name="tag_exp" value="hide"/>
         <jsp:param name="btn_return" value="hide"/>
+        <jsp:param name="group_type" value="group"/>
         <jsp:param name="btn_submit_text" value="群发"/>
     </jsp:include>
 </div>

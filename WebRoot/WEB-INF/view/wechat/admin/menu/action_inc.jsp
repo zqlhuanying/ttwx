@@ -28,6 +28,15 @@
 	 		<input type="hidden" id="menuType" name="menuType" value="">
 	 		<input type="hidden" id="menuUrl" name="menuUrl" value="">
  		</c:if>
+
+        <c:if test="${ param.group_type eq 'group' }">
+            <!--这个参数用来区分是根据分组还是向全部用户发送-->
+            <!--0:表示全部用户；非0：表示根据分组-->
+            <input type="hidden" id="is_to_all" name="is_to_all" value="0" />
+
+            <input type="hidden" id="req_send_type" name="req_send_type" value="" />
+            <input type="hidden" id="msg_group_type" name="msg_group_type" value="" />
+        </c:if>
  		<input type="hidden" id="txtContent" name="materiaContent" value="">
  	</form>
 
