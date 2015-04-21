@@ -89,5 +89,4 @@ public class MaterialServiceImpl extends BaseAbstractService<MaterialEntity> imp
 		}
 		return conten;
 	}
-	
 }

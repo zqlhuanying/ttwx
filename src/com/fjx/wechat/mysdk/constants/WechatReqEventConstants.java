@@ -24,7 +24,12 @@ public class WechatReqEventConstants {
 	 * 事件类型：CLICK(自定义菜单点击事件)
 	 */
 	public static final String EVENT_TYPE_CLICK = "CLICK";
-	
+
+    /**
+     * 事件类型：MASSSENDJOBFINISH(群发)
+     */
+    public static final String EVENT_TYPE_MASSSENDJOBFINISH = "MASSSENDJOBFINISH";
+
 	/**
 	 * 上报地理位置事件
 	 */

@@ -5,6 +5,8 @@ import com.fjx.common.framework.system.pagination.Pagination;
 import com.fjx.wechat.base.admin.entity.WechatPublicAccountEntity;
 import com.fjx.wechat.base.admin.entity.WechatUserEntity;
 
+import java.util.List;
+
 
 /**
  * 微信用户分组管理
@@ -28,5 +30,9 @@ public interface WechatUserService extends IBaseAbstractService<WechatUserEntity
 	 * @param group_id
 	 */
 	public void updateGroup (String user_id, String group_id);
-	
+
+    /**
+     * 查询用户信息
+     */
+	public List<WechatUserEntity> getList(WechatUserEntity user, String group_id, WechatPublicAccountEntity publicAccount);
 }

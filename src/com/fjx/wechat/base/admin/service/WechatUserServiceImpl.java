@@ -72,4 +72,24 @@ public class WechatUserServiceImpl extends BaseAbstractService<WechatUserEntity>
         bulkUpdate(hql.toString(), true, group_id, user_id);
     }
 
+    @Override
+    public List<WechatUserEntity> getList(WechatUserEntity user, String group_id, WechatPublicAccountEntity publicAccount){
+        StringBuilder hql = new StringBuilder(
+                " from WechatUserEntity u where u.publicAccountEntity = ? ");
+        List<Object> params = new ArrayList<Object>();
+        params.add(publicAccount);
+        if (StringUtils.isNotBlank(group_id) || group_id != null) {
+            hql.append("and u.group_id = ?");
+            params.add(group_id);
+        }
+        if (StringUtils.isNotBlank(user.getCountry())) {
+            hql.append(" and u.country = ?");
+            params.add(user.getCountry());
+        }
+        if (StringUtils.isNotBlank(user.getSex())) {
+            hql.append(" and u.sex = ?");
+            params.add(user.getSex());
+        }
+        return findListByHql(hql.toString(), params);
+    }
 }

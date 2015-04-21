@@ -74,5 +74,20 @@ public class ClientFactory {
         return client.init(apiConfig);
     }
 
+    /**
+     * 构建群发消息客户端
+     */
+    public static GroupClient createGroupClient(String appId, String appSecret,String token ){
+        ApiConfig apiConfig = new ApiConfig();
+        apiConfig.init(appId, appSecret, token);
+        return createGroupClient(apiConfig);
+    }
 
+    /**
+     * 构建群发消息客户端
+     */
+    public static GroupClient createGroupClient(ApiConfig apiConfig){
+        GroupClient client = new GroupClient();
+        return client.init(apiConfig);
+    }
 }

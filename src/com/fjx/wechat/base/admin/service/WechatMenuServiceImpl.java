@@ -228,5 +228,5 @@ public class WechatMenuServiceImpl extends BaseAbstractService<WechatMenuEntity>
 		return true;
 	}
 
-	
+
 }
