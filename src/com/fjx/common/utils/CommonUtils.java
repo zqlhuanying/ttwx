@@ -125,6 +125,21 @@ public final class CommonUtils {
     }
 
     /**
+     * 获得上传目录路径
+     *
+     * @param request
+     * @return
+     */
+    public static String getUploadPath(HttpServletRequest request) {
+        String baseUrl = "wechat/upload";
+        try {
+            return WebUtils.getRealPath(request.getSession().getServletContext(), "/") + baseUrl;
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
      * 获得项目classPath
      *
      * @return

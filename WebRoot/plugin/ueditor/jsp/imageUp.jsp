@@ -82,14 +82,17 @@
 		return;
 
 	}
+    // dir:上传图片存储的目录，为了跟AppConfig.STATIC_DOMAIN(在ueditor.config.js文件中设置了imagePath属性，表示预览图片时的路径)一致
+    // 不得不在ueditor.Uploader的getPhysicalPathByRoot()方法中加入了“wechat”，不然图片上传路径跟预览路径不一致，导致预览失败
+    // 当然image属于静态资源文件，此时还需要设置URL Mapping，否则即使路径一致，也无法加载图片。
+    // 在sping-mvc.xml设置<mvc:resource/>属性来完成URL映射
 	dir = "/upload/images/" + dir;
-	
 	up.setSavePath(dir);
-	up.setMySavePath(mySavePath);
+	up.setMySavePath(mySavePath);  //非站点服务器目录
 	String[] fileType = { ".gif", ".png", ".jpg", ".jpeg", ".bmp" };
 	up.setAllowFiles(fileType);
 	up.setMaxSize(500 * 1024); //单位KB
-	up.myUpload(true);//上传到非站点服务器（apache静态资源服务器）
+	up.myUpload(false);//true:上传到非站点服务器（apache静态资源服务器）；false:上传到站点服务器
 	String resObject = "{'url':'" + up.getUrl() + "','fileType':'" + up.getType() + "','fileName':'" + up.getFileName()+"','title':'" + up.getTitle()
 			+ "','state':'" + up.getState() + "','original':'" + up.getOriginalName() + "'}";
 	System.out.println("图片上传返回参数："+resObject);

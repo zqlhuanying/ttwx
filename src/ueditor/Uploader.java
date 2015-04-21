@@ -449,7 +449,7 @@ public class Uploader {
      */
     private String getPhysicalPathByRoot(String path) {
         String realPath = this.request.getSession().getServletContext().getRealPath("/");
-        return new File(realPath).getPath() + "/" + path;
+        return new File(realPath).getPath() + "/wechat" + path;
     }
 
     /**

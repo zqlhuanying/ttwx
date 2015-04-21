@@ -369,7 +369,7 @@ function submitMsgActionForm(respType){
 				$.messager.alert('提示',res?res.msg:'设置失败！','error');
 			}
 		},
-		onSubmit : function(){   
+		onSubmit : function(){
 			var menuId = selectNode.id;
 			$("#menuId").val(menuId);
 			if(selectNode.action_id){	//更新菜单才可能有action
