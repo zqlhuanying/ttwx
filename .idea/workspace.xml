@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RespMsgActionServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RespMsgActionServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5308311" vertical-offset="1980" max-vertical-offset="6050">
-              <caret line="120" column="75" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="6050">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding>
                 <element signature="e#4250#4251#0" expanded="true" />
                 <element signature="e#4338#4339#0" expanded="true" />
@@ -44,24 +44,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseAbstractService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/service/impl/BaseAbstractService.java">
+      <file leaf-file-name="action_inc.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/action_inc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="2662">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.55440414" vertical-offset="2052" max-vertical-offset="2926">
+              <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3108" max-vertical-offset="6622">
-              <caret line="154" column="10" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/MaterialController.java" />
         <option value="$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WebRoot/static/script/admin/action_inc.js" />
       </list>
     </option>
   </component>
@@ -2070,16 +2059,16 @@
       <workItem from="1429439114093" duration="2766000" />
       <workItem from="1429446446997" duration="4500000" />
       <workItem from="1429490790351" duration="537000" />
-      <workItem from="1429582243185" duration="30294000" />
+      <workItem from="1429582243185" duration="30598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116013000" />
+    <option name="totallyTimeSpent" value="116317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2094,7 +2083,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36447167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36447167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2147,14 +2136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/mysdk/process/in/executor/InWechatEventClickMsgExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="682">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/mysdk/process/in/executor/InServiceExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="2288">
@@ -2553,12 +2534,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5308311" vertical-offset="1980" max-vertical-offset="6050">
-          <caret line="120" column="75" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="6050">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
             <element signature="e#4250#4251#0" expanded="true" />
             <element signature="e#4338#4339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/action_inc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55440414" vertical-offset="2052" max-vertical-offset="2926">
+          <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
