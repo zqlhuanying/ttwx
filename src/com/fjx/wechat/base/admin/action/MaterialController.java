@@ -64,7 +64,7 @@ public class MaterialController extends BaseController {
 		return retSuccess();
 	}
 	
-	@RequestMapping(value="/page")
+	@RequestMapping(value="/pageList")
 	@ResponseBody
 	public Pagination<MaterialEntity> page (HttpServletRequest request, String msg_type) throws Exception{
 		Pagination<MaterialEntity> page = materialService.getListPageByType(msg_type, getLoginSysUser(request));

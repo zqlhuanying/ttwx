@@ -47,7 +47,7 @@ function init(){
 function loadMaterials(page,rows){
 	
 	$.ajax({
-		url :  domain + '/admin/material/page?msg_type=news',
+		url :  domain + '/admin/material/pageList?msg_type=news',
 		data : "page="+page+"&rows="+rows,
 		cache : false,
 		dataType : "json",
