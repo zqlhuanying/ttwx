@@ -31,21 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="material.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/material.js">
+      <file leaf-file-name="RespMsgActionServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="2244">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="0.5308311" vertical-offset="1980" max-vertical-offset="6050">
+              <caret line="120" column="75" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="75" />
+              <folding>
+                <element signature="e#4250#4251#0" expanded="true" />
+                <element signature="e#4338#4339#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaterialController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/MaterialController.java">
+      <file leaf-file-name="BaseAbstractService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/service/impl/BaseAbstractService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68481374" vertical-offset="685" max-vertical-offset="1628">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="2662">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,59 +57,11 @@
       <file leaf-file-name="BaseDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="6226">
-              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySpringMvcServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/system/init/MySpringMvcServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="2090">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/user/user.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.806452" vertical-offset="1743" max-vertical-offset="2288">
-              <caret line="86" column="31" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msg_log.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/msg_log.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="3916">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReqMsglogAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/ReqMsglogAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="814">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2413793" vertical-offset="280" max-vertical-offset="6424">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="48" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3108" max-vertical-offset="6622">
+              <caret line="154" column="10" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +84,6 @@
         <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/display/action/DisplayController.java" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/WechatApiAction.java" />
-        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java" />
         <option value="F:/jetty8/start.ini" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/display/index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/display/footer.jsp" />
@@ -152,6 +106,7 @@
         <option value="$PROJECT_DIR$/WebRoot/static/script/admin/material.js" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/MaterialController.java" />
         <option value="$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -2115,12 +2070,12 @@
       <workItem from="1429439114093" duration="2766000" />
       <workItem from="1429446446997" duration="4500000" />
       <workItem from="1429490790351" duration="537000" />
-      <workItem from="1429582243185" duration="28091000" />
+      <workItem from="1429582243185" duration="30294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113810000" />
+    <option name="totallyTimeSpent" value="116013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
@@ -2271,14 +2226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1410257" vertical-offset="1004" max-vertical-offset="1980">
           <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="5918">
-          <caret line="112" column="22" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2506,14 +2453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/service/impl/BaseAbstractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1940" max-vertical-offset="2662">
-          <caret line="146" column="28" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/MaterialServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4679487" vertical-offset="206" max-vertical-offset="1738">
@@ -2570,14 +2509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="6226">
-          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/system/init/MySpringMvcServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="2090">
@@ -2596,9 +2527,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/MaterialController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68481374" vertical-offset="685" max-vertical-offset="1628">
+        <state vertical-scroll-proportion="0.64075065" vertical-offset="685" max-vertical-offset="1628">
           <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/service/impl/BaseAbstractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="2662">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/common/framework/base/dao/impl/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3108" max-vertical-offset="6622">
+          <caret line="154" column="10" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/RespMsgActionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5308311" vertical-offset="1980" max-vertical-offset="6050">
+          <caret line="120" column="75" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="75" />
+          <folding>
+            <element signature="e#4250#4251#0" expanded="true" />
+            <element signature="e#4338#4339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

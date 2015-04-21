@@ -152,6 +152,7 @@ public class BaseDao implements IBaseDao {
 		Session session = getCurrentSession();
 		X entity = (X) session.load(entityClass, pk);
 		session.delete(entity);
+        //session.flush();
 	}
 
 	@Override
