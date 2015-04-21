@@ -18,7 +18,7 @@
 	System.out.println("上传图片开始");
 	String currentPath = request.getRequestURI().replace(request.getContextPath(), "");
 	String mySavePath = AppConfig.STATIC_PATH;
-	
+
 	File currentFile = new File(currentPath);
 	//为了解决tomcat与jetty之间的差异问题，如果不转换jetty会出问题
 	currentPath = (currentFile.getParent() + File.separator).replace("\\", "/");
@@ -28,7 +28,7 @@
 			.getRealPath(currentPath + "config.properties");
 	
 	Properties properties = new Properties();
-	
+
 	try {
 		properties.load(new FileInputStream(propertiesPath));
 	} catch (Exception e) {

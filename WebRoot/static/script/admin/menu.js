@@ -369,7 +369,7 @@ function submitMsgActionForm(respType){
 				$.messager.alert('提示',res?res.msg:'设置失败！','error');
 			}
 		},
-		onSubmit : function(){   
+		onSubmit : function(){
 			var menuId = selectNode.id;
 			$("#menuId").val(menuId);
 			if(selectNode.action_id){	//更新菜单才可能有action
@@ -379,6 +379,7 @@ function submitMsgActionForm(respType){
 			$("#materiaMsgType").val(respType);		//响应消息类型
 			$("#msgReqType").val(req_type);
 			$("#eventType").val(event_type);
+            $("#setType").val("set");
 			if(respType === 'text'){
 				$("#msgActionType").val("material");
 				var txtContent = $.trim($("#replyText").val());
@@ -406,8 +407,12 @@ function submitMsgActionForm(respType){
 				}
 				$("#msgExtAppId").val(app_id);
 			}
+            if(respType === 'none'){
+                $("#setType").val("none");
+            }
 			if(respType === 'url'){
 				$("#menuType").val("view");
+                $("#setType").val("none");
 				var app_url = busiweb_combobox.combobox("getValue");
 				//如果app_url，表示用户没有选择应用的链接地址
 				if(!app_url){

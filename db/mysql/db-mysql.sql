@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : localhost_3306
@@ -518,6 +518,7 @@ CREATE TABLE `wechat_user_info` (
   `public_account_id` varchar(32) NOT NULL,
   `group_id` varchar(32) DEFAULT NULL,
   `subscribe_time` datetime DEFAULT NULL,
+  `phone` varchar(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FKA9C826C99F275FAE` (`public_account_id`),
   KEY `FKA9C826C9FFCFAA76` (`group_id`),
@@ -528,8 +529,8 @@ CREATE TABLE `wechat_user_info` (
 -- ----------------------------
 -- Records of wechat_user_info
 -- ----------------------------
-INSERT INTO wechat_user_info VALUES ('4028818c4961519d0149615397f00000', null, null, null, null, null, null, 'fromUser', null, null, null, '2014-11-02 22:59:59', 'fromUser', '4028818c4961519d0149615397f00000', '4028c6814971421f01497156ed400000', '2014-11-02 23:42:07');
-INSERT INTO wechat_user_info VALUES ('4028c681499334b30149933fed9d0001', null, null, null, null, null, null, 'fromUser', null, null, null, null, null, '4028818c4961519d0149615397f00000', '4028c6814976381401497639035b0000', '2014-11-09 14:31:20');
+INSERT INTO wechat_user_info VALUES ('4028818c4961519d0149615397f00000', null, null, null, null, null, null, 'fromUser', null, null, null, '2014-11-02 22:59:59', 'fromUser', '4028818c4961519d0149615397f00000', '4028c6814971421f01497156ed400000', '2014-11-02 23:42:07',null);
+INSERT INTO wechat_user_info VALUES ('4028c681499334b30149933fed9d0001', null, null, null, null, null, null, 'fromUser1', null, null, null, null, null, '4028818c4961519d0149615397f00000', '4028c6814976381401497639035b0000', '2014-11-09 14:31:20',null);
 
 -- ----------------------------
 -- View structure for `keyword_action_view`

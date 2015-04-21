@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.fjx.common.framework.system.context.MySystemContext;
 import com.fjx.wechat.base.admin.entity.KeyWordActionView;
 import com.fjx.wechat.base.admin.entity.MaterialEntity;
 import com.fjx.wechat.base.admin.entity.RespMsgActionEntity;
@@ -194,7 +195,9 @@ public class RespMsgActionServiceImpl extends BaseAbstractService<RespMsgActionE
 	 * @param materialEntity
 	 */
 	private void saveMenuAction(RespMsgActionEntity actionEntity, WechatMenuEntity menuEntity, MaterialEntity materialEntity){
-		Date now = new Date();
+		String setType = MySystemContext.getMyRequest().getParameter("setType");
+
+        Date now = new Date();
 		
 		String menu_id = menuEntity.getId();
 		menuEntity.setUpdate_time(now);
@@ -202,7 +205,8 @@ public class RespMsgActionServiceImpl extends BaseAbstractService<RespMsgActionE
 		String menuType = menuEntity.getType();
 		
 		//菜单类型为click
-		if(menuType.equals(WechatMenuConstants.TYPE_CLICK)){
+        //且菜单设置了动作规则时，才保存actionEntity、materialEntity
+		if(menuType.equals(WechatMenuConstants.TYPE_CLICK) && "set".equals(setType)){
 			menuEntity.setMenu_key("key_"+menu_id);
 			menuEntity.setUrl(null);
 			actionEntity.setKey_word("key_"+menu_id);			//请求关键字 or 菜单点击key
