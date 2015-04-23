@@ -532,32 +532,6 @@ INSERT INTO wechat_user_info VALUES ('4028818c4961519d0149615397f00000', null, n
 INSERT INTO wechat_user_info VALUES ('4028c681499334b30149933fed9d0001', null, null, null, null, null, null, 'fromUser1', null, null, null, null, null, '4028818c4961519d0149615397f00000', '4028c6814976381401497639035b0000', '2014-11-09 14:31:20');
 
 -- ----------------------------
--- Table structure for `user_fund_bind`
--- ----------------------------
-DROP TABLE IF EXISTS `user_fund_bind`;
-CREATE TABLE `user_fund_bind` (
-  `id` varchar(32) NOT NULL,
-  `userid` varchar(32) NOT NULL,
-  `phone` varchar(11) DEFAULT NULL,
-  `fund_account` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_FUND_USER` (`userid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Table structure for `user_fund`
--- ----------------------------
-DROP TABLE IF EXISTS `user_fund`;
-CREATE TABLE `user_fund` (
-  `id` varchar(32) NOT NULL,
-  `fund_account` varchar(255) NOT NULL,
-  `amount` decimal(7,2) DEFAULT NULL,
-  `time` varchar(6) NOT NULL,
-  PRIMARY KEY (`fund_account`,`time`),
-  KEY `FK_FUND_SEARCH` (`fund_account`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
 -- View structure for `keyword_action_view`
 -- ----------------------------
 DROP VIEW IF EXISTS `keyword_action_view`;

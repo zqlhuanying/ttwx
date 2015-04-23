@@ -71,7 +71,6 @@ public class WechatUserEntity extends ToStringBase {
 	private Date subscribe_time;
 	private Date unsubscribe_time;
 	private String busi_user_id;
-    private String phone;
 	
 	private WechatUserGroupEntity wechatUserGroupEntity;
 	private WechatPublicAccountEntity publicAccountEntity;
@@ -138,14 +137,6 @@ public class WechatUserEntity extends ToStringBase {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
 
     public String getProvince() {
 		return province;

@@ -17,7 +17,7 @@ public class SendMailVo {
 
 	private String type;
 	private String toUser; 					// 邮件接收地址
-	private String fromUser = "zqlhuanying@163.com"; 	// 发送者别名
+	private String fromUser = "weixin@saptac.com.cn"; 	// 发送者别名
 	private String subject; 				// 邮件主题
 	private String content; 				// 邮件正文内容
 	private List<File> attrFiles; 			// 附件

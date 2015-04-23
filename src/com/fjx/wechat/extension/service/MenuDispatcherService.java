@@ -30,8 +30,8 @@ public class MenuDispatcherService {
         String menu_key = reqMap.get("EventKey");
         if(menu_key != null && StringUtils.isNotBlank(menu_key)){
             String hql = "from WechatMenuEntity w where w.menu_key = ?";
-            WechatMenuEntity wechatMenuEntity = wechatMenuService.findOneByHql(hql, "key_" + menu_key);
-            if("查询公积金".equals(wechatMenuEntity.getName())){
+            WechatMenuEntity wechatMenuEntity = wechatMenuService.findOneByHql(hql, menu_key);
+            if("公积金".equals(wechatMenuEntity.getName())){
                 menuExtService = searchFundService;
             }
         }

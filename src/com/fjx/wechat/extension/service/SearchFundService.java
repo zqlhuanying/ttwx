@@ -1,7 +1,9 @@
 package com.fjx.wechat.extension.service;
 
 import com.fjx.wechat.base.admin.entity.WechatUserEntity;
+import com.fjx.wechat.base.admin.service.UserFundService;
 import com.fjx.wechat.base.admin.service.WechatUserService;
+import com.fjx.wechat.config.AppConfig;
 import com.fjx.wechat.mysdk.beans.resp.RespTextMessage;
 import com.fjx.wechat.mysdk.constants.WechatRespMsgtypeConstants;
 import com.fjx.wechat.mysdk.context.WechatContext;
@@ -21,7 +23,8 @@ import java.util.Map;
 public class SearchFundService implements MenuExtService {
 
     @Autowired
-    private WechatUserService wechatUserService;
+    private UserFundService userFundService;
+
 
     @Override
     public String extProcess(){
@@ -40,10 +43,10 @@ public class SearchFundService implements MenuExtService {
         respTextMessage.setFuncFlag(0);
 
         // 若用户手机号不存在，则视为未绑定
-        String hql = "from WechatUserEntity w where w.openid = ?";
-        WechatUserEntity wechatUserEntity = wechatUserService.findOneByHql(hql, fromUserName);
-        if(StringUtils.isBlank(wechatUserEntity.getPhone())){
-            respTextMessage.setContent("发现您未绑定手机号码，<a href=\"www.baidu.com\">点击这里，进行绑定</a>");
+        if( !userFundService.isBindPhone(fromUserName) ){
+            respTextMessage.setContent("发现您未绑定手机号码，<a href=\" " + AppConfig.DOMAIN_PAGE + "/admin/extmenu/bindPhone?id=" + fromUserName + "\">点击这里，进行绑定</a>");
+        }else {
+            respTextMessage.setContent("您的公积金为" + userFundService.loadUserFundByOpenId(fromUserName) + "元");
         }
 
         return MessageUtil.textMessageToXml(respTextMessage);

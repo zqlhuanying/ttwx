@@ -205,36 +205,37 @@ public class RespMsgActionServiceImpl extends BaseAbstractService<RespMsgActionE
 		String menuType = menuEntity.getType();
 		
 		//菜单类型为click
-        //且菜单设置了动作规则时，才保存actionEntity、materialEntity
-		if(menuType.equals(WechatMenuConstants.TYPE_CLICK) && "set".equals(setType)){
+		if(menuType.equals(WechatMenuConstants.TYPE_CLICK)){
 			menuEntity.setMenu_key("key_"+menu_id);
 			menuEntity.setUrl(null);
-			actionEntity.setKey_word("key_"+menu_id);			//请求关键字 or 菜单点击key
-			
-			//消息响应类型
-			String action_type = actionEntity.getAction_type();
-			if(RespMsgActionEntity.ACTION_TYPE_MATERIAL.equals(action_type)){		//从素材读取数据
-				//消息响应类型
-				String resp_type = actionEntity.getMaterial().getMsg_type();
-				//消息回复类型是文字，则先将文字信息保存到素材表
-				if(resp_type.equals(WechatRespMsgtypeConstants.RESP_MESSAGE_TYPE_TEXT)){
-					materialEntity.setIn_time(now);
-					materialEntity.setMsg_type(WechatRespMsgtypeConstants.RESP_MESSAGE_TYPE_TEXT);
-					
-					List<Map<String, String>> materialList = new ArrayList<Map<String,String>>();
-					Map<String, String> materiaParam = new HashMap<String, String>();
-					materiaParam.put("msg_type", materialEntity.getMsg_type());
-					materiaParam.put("txt_content", materialEntity.getContent());
-					materialList.add(materiaParam);
-					String materialXml = MaterialUtil.data2Xml(materialList);
-					materialEntity.setXml_data(materialXml);
-					logger.debug("materiaXmlParam json data: {} "+ materialXml);
-					
-					actionEntity.setMaterial(materialEntity);
-					save(materialEntity);
-				}
-			}
-			save(actionEntity);
+            //且菜单设置了动作规则时，才保存actionEntity、materialEntity
+            if("set".equals(setType)){
+                actionEntity.setKey_word("key_"+menu_id);			//请求关键字 or 菜单点击key
+                //消息响应类型
+                String action_type = actionEntity.getAction_type();
+                if(RespMsgActionEntity.ACTION_TYPE_MATERIAL.equals(action_type)){		//从素材读取数据
+                    //消息响应类型
+                    String resp_type = actionEntity.getMaterial().getMsg_type();
+                    //消息回复类型是文字，则先将文字信息保存到素材表
+                    if(resp_type.equals(WechatRespMsgtypeConstants.RESP_MESSAGE_TYPE_TEXT)){
+                        materialEntity.setIn_time(now);
+                        materialEntity.setMsg_type(WechatRespMsgtypeConstants.RESP_MESSAGE_TYPE_TEXT);
+
+                        List<Map<String, String>> materialList = new ArrayList<Map<String,String>>();
+                        Map<String, String> materiaParam = new HashMap<String, String>();
+                        materiaParam.put("msg_type", materialEntity.getMsg_type());
+                        materiaParam.put("txt_content", materialEntity.getContent());
+                        materialList.add(materiaParam);
+                        String materialXml = MaterialUtil.data2Xml(materialList);
+                        materialEntity.setXml_data(materialXml);
+                        logger.debug("materiaXmlParam json data: {} "+ materialXml);
+
+                        actionEntity.setMaterial(materialEntity);
+                        save(materialEntity);
+                    }
+                }
+                save(actionEntity);
+            }
 		}else if(menuType.equals(WechatMenuConstants.TYPE_VIEW)){
 			menuEntity.setMenu_key(null);
 			
