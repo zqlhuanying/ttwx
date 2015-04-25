@@ -21,7 +21,7 @@ public class UserFundEntity extends ToStringBase{
     private String id;
     private Float  amount;
     private String time;
-    private UserFundBindEntity userFundBindEntity;
+    private String fund_account;
 
     @Id
     @GeneratedValue(generator="system-uuid")
@@ -35,14 +35,13 @@ public class UserFundEntity extends ToStringBase{
         this.id = id;
     }
 
-    @OneToOne
-    @JoinColumn(name = "fund_account", nullable = false)
-    public UserFundBindEntity getUserFundBindEntity() {
-        return userFundBindEntity;
+
+    public String getFund_account() {
+        return fund_account;
     }
 
-    public void setUserFundBindEntity(UserFundBindEntity userFundBindEntity) {
-        this.userFundBindEntity = userFundBindEntity;
+    public void setFund_account(String fund_account) {
+        this.fund_account = fund_account;
     }
 
     public Float getAmount() {
@@ -52,6 +51,7 @@ public class UserFundEntity extends ToStringBase{
     public void setAmount(Float amount) {
         this.amount = amount;
     }
+
 
     public String getTime() {
         return time;

@@ -553,8 +553,7 @@ CREATE TABLE `user_fund` (
   `fund_account` varchar(255) NOT NULL,
   `amount` decimal(7,2) DEFAULT NULL,
   `time` varchar(6) NOT NULL,
-  PRIMARY KEY (`fund_account`,`time`),
-  KEY `FK_FUND_SEARCH` (`fund_account`)
+  PRIMARY KEY (`fund_account`,`time`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
