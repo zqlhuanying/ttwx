@@ -122,9 +122,9 @@ public class FileUtil {
      * @since 1.0
      */
     public static boolean makeDirectory(File file) {
-        File parent = file.getParentFile();
-        if (parent != null) {
-            return parent.mkdirs();
+        //File parent = file.getParentFile();
+        if (file != null) {
+            return file.mkdirs();
         }
         return false;
     }

@@ -53,7 +53,7 @@ public class MaterialServiceImpl extends BaseAbstractService<MaterialEntity> imp
 				String xml_data = material.getXml_data();
 				int l = contents.size();
 				for(int i = 0; i < l; i++){
-					String htmlPath = AppConfig.STATIC_PATH;
+					String htmlPath = CommonUtils.getUploadPath(MySystemContext.getMyRequest());
 					String htmlUrl = "/upload/html/material/" + CommonUtils.getPrimaryKey()+".html";
 					//如果不存在则创建文件夹
 					FileUtil.makeDirectory(htmlPath + "/upload/html/material/");
