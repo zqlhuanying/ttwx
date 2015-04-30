@@ -54,6 +54,9 @@ public class RespMsgActionServiceImpl extends BaseAbstractService<RespMsgActionE
 	 * 更新消息动作规则
 	 * (non-Javadoc)
 	 * @see com.fjx.wechat.base.admin.service.RespMsgActionService#updateAction(com.fjx.wechat.base.admin.entity.RespMsgActionEntity, com.fjx.wechat.base.admin.entity.WechatMenuEntity, com.fjx.wechat.base.admin.entity.MaterialEntity)
+	 * 因整个updateAction为一个事务，而Hibernate只有在session close或flush时才真正执行SQL语句，导致此方法出现异常，即菜单Action无法修改
+	 * 法一：调用deleteAction（updateAction->deleteMsgActionById->deleteAction），直接执行SQL来删除
+	 * 法二：在BaseDao.java 对应的delete方法中执行session.flush()
 	 */
 	@Override
 	public void updateAction(RespMsgActionEntity actionEntity, WechatMenuEntity menuEntity, MaterialEntity materialEntity){
@@ -106,15 +109,19 @@ public class RespMsgActionServiceImpl extends BaseAbstractService<RespMsgActionE
 			throw new MyRuntimeException("ID为空，删除消息动作失败");
 		}
 		String _ids[] = ids.split(",");
-		if(null != _ids && _ids.length>0){
+		if(null != _ids && _ids.length > 1){
 			for(String id : _ids){
-				delete(id);
+                deleteAction(id);
 			}
 		}else{
-			delete(ids);
+            deleteAction(ids);
 		}
 	}
-	
+
+    private void deleteAction(String id){
+        bulkUpdate("delete from RespMsgActionEntity a where a.id = ?", true, id);
+    }
+
 	/*
 	 * 根据关键字删除消息规则
 	 * (non-Javadoc)
