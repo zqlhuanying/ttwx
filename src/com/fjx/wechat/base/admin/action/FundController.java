@@ -5,6 +5,7 @@ import com.fjx.common.framework.base.dao.IBaseDao;
 import com.fjx.common.framework.system.pagination.Pagination;
 import com.fjx.common.utils.CommonUtils;
 import com.fjx.common.utils.WebUtil;
+import com.fjx.wechat.base.admin.entity.UserFundBindEntity;
 import com.fjx.wechat.base.admin.entity.UserFundEntity;
 import com.fjx.wechat.base.admin.service.UserFundService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,14 +28,25 @@ public class FundController extends BaseController{
     private UserFundService userFundService;
 
     @RequestMapping(value = "")
-    public String view(){
+    public String viewFund(){
         return "/wechat/admin/fund/fund";
     }
 
-    @RequestMapping(value = "/pageList")
+    @RequestMapping(value = "bind")
+    public String viewBind(){
+        return "/wechat/admin/fund/searchBind";
+    }
+
+    @RequestMapping(value = "/pageListFund")
     @ResponseBody
-    public Pagination<UserFundEntity> pageList(HttpServletRequest request, UserFundEntity userFundEntity){
+    public Pagination<UserFundEntity> pageListFund(HttpServletRequest request, UserFundEntity userFundEntity){
         return userFundService.pageList(userFundEntity);
+    }
+
+    @RequestMapping(value = "/pageListBind")
+    @ResponseBody
+    public Pagination<UserFundBindEntity> pageListBind(HttpServletRequest request, UserFundBindEntity userFundBindEntity){
+        return userFundService.pageList(userFundBindEntity);
     }
 
     @RequestMapping(value = "/save")
@@ -50,11 +62,19 @@ public class FundController extends BaseController{
         return retSuccess();
     }
 
-    @RequestMapping(value = "/delete")
+    @RequestMapping(value = "/deleteFund")
     @ResponseBody
     public Map<String, String> deleteFund(HttpServletRequest request, String ids){
         setErrorMsg(request,"删除失败");
         userFundService.delete(UserFundEntity.class, ids);
+        return retSuccess();
+    }
+
+    @RequestMapping(value = "/deleteBind")
+    @ResponseBody
+    public Map<String, String> deleteBind(HttpServletRequest request, String ids){
+        setErrorMsg(request,"删除失败");
+        userFundService.delete(UserFundBindEntity.class, ids);
         return retSuccess();
     }
 }

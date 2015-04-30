@@ -88,4 +88,24 @@ public class UserFundServiceImpl extends BaseAbstractService implements UserFund
         return pageByHql(queryHql, params);
     }
 
+    @Override
+    public Pagination<UserFundBindEntity> pageList(UserFundBindEntity userFundBindEntity){
+        List<Object> params = new ArrayList<Object>();
+        StringBuilder hql = new StringBuilder();
+        hql.append("from UserFundBindEntity u where ");
+        if(StringUtils.isNotBlank(userFundBindEntity.getFund_account())){
+            hql.append("and u.fund_account = ?");
+            params.add(userFundBindEntity.getFund_account());
+        }
+        String queryHql = hql.toString();
+        // 若params中没有参数，则表示全表查询
+        if(params.size() == 0){
+            queryHql = queryHql.replace("where", "");
+        } else {
+            queryHql = queryHql.replaceFirst("and", "");
+        }
+        //System.out.println(queryHql);
+        return pageByHql(queryHql, params);
+    }
+
 }

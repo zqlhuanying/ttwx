@@ -67,7 +67,14 @@
                 }
             },
             {
-                "text": "公积金",
+                "text": "公积金绑定信息查询",
+                "checked": false,
+                "attributes": {
+                    "src": "/admin/fund/bind"
+                }
+            },
+            {
+                "text": "公积金查询",
                 "checked": false,
                 "attributes": {
                     "src": "/admin/fund"

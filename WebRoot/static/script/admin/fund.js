@@ -57,7 +57,7 @@ function init(){
     }).dialog('close');
 
     datagrid = $('#datagrid').datagrid({
-        url : domain + '/admin/fund/pageList',
+        url : domain + '/admin/fund/pageListFund',
         toolbar : '#toolbar',
         iconCls : 'icon-save',
         pagination : true,
@@ -93,11 +93,11 @@ function init(){
             title : '关键字',
             width : 200
         } */] ],
-        columns : [[ {
+        columns : [[ /*{
             field : 'name',
             title : '姓名',
             width : 150
-        }, {
+        },*/ {
             field : 'fund_account',
             title : '公积金账号',
             width : 150
@@ -219,7 +219,7 @@ function validForm(){
 
 function deleteFund(ids){
     $.ajax({
-        url :  domain + '/admin/fund/delete',
+        url :  domain + '/admin/fund/deleteFund',
         data : 'ids='+ids,
         cache : false,
         dataType : "json",

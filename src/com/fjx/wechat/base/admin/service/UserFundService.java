@@ -34,8 +34,13 @@ public interface UserFundService extends IBaseAbstractService{
     public Boolean isBindPhone(String openid);
 
     /**
-     * 分页查询
+     * 分页查询公积金信息
      */
     public Pagination<UserFundEntity> pageList(UserFundEntity userFundEntity);
+
+    /**
+     * 分页查询公积金绑定信息
+     */
+    public Pagination<UserFundBindEntity> pageList(UserFundBindEntity userFundBindEntity);
 
 }

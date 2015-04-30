@@ -31,93 +31,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bind.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/display/bind.js">
+      <file leaf-file-name="searchBind.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/searchBind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1518">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1391" max-vertical-offset="2002">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FundController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FundController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/FundController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5638298" vertical-offset="476" max-vertical-offset="1100">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="1892">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/common/inc/admin.jsp">
+      <file leaf-file-name="searchBind.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/searchBind.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="418">
-              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="572">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bindPhone.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/extmenu/bindPhone.jsp">
+      <file leaf-file-name="UserFundServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.548388" vertical-offset="922" max-vertical-offset="1518">
-              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2002" max-vertical-offset="2574">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/common/inc/display.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="814">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fund.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fund.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/fund.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7293" max-vertical-offset="7656">
-              <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
+            <state vertical-scroll-proportion="-1.6969697" vertical-offset="1914" max-vertical-offset="7656">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/display/login.jsp">
+      <file leaf-file-name="catalina.out" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/catalina.out">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.032258" vertical-offset="1538" max-vertical-offset="1870">
-              <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+            <state vertical-scroll-proportion="-2.9433963" vertical-offset="993892" max-vertical-offset="994202">
+              <caret line="45184" column="166" selection-start-line="45184" selection-start-column="158" selection-end-line="45184" selection-end-column="166" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7590" max-vertical-offset="10406">
-              <caret line="348" column="30" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fund.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/fund.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.612903" vertical-offset="1318" max-vertical-offset="1914">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -171,17 +144,20 @@
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/ftl/register-valid-mail.ftl" />
         <option value="$PROJECT_DIR$/WebRoot/static/script/admin/keyword_action.js" />
         <option value="$PROJECT_DIR$/WebRoot/static/script/admin/msg_log.js" />
-        <option value="$PROJECT_DIR$/config/admin-menu.json" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/Fund/Fund.jsp" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/ReqMsglogAction.java" />
-        <option value="$PROJECT_DIR$/WebRoot/static/script/display/bind.js" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/UserFundEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundService.java" />
-        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundServiceImpl.java" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/extmenu/bindPhone.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/fund.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/static/script/admin/fund.js" />
+        <option value="$PROJECT_DIR$/config/admin-menu.json" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/bind.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/static/script/display/bind.js" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/searchBind.jsp" />
+        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundService.java" />
         <option value="$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/FundController.java" />
+        <option value="$PROJECT_DIR$/WebRoot/static/script/admin/searchBind.js" />
+        <option value="$PROJECT_DIR$/WebRoot/static/script/admin/fund.js" />
       </list>
     </option>
   </component>
@@ -226,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -529,28 +504,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ttwx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ttwx" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1608,6 +1561,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1636,6 +1590,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEAWorkspace\ttwx\WebRoot\static\script\admin" />
+      <recent name="F:\IDEAWorkspace\ttwx\WebRoot\WEB-INF\view\wechat\admin\fund" />
       <recent name="F:\IDEAWorkspace\ttwx\WebRoot\static\css" />
       <recent name="F:\IDEAWorkspace\ttwx\WebRoot\static\script\display" />
       <recent name="F:\IDEAWorkspace\ttwx\WebRoot" />
@@ -1929,21 +1885,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.2.10.v20150310" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -2097,6 +2038,21 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -2229,15 +2185,18 @@
       <workItem from="1429839244429" duration="27673000" />
       <workItem from="1429879419318" duration="10724000" />
       <workItem from="1429924541982" duration="6029000" />
+      <workItem from="1430230169289" duration="667000" />
+      <workItem from="1430271441950" duration="5979000" />
+      <workItem from="1430357602298" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221469000" />
+    <option name="totallyTimeSpent" value="228968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2262,7 +2221,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3797856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3797856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2305,58 +2264,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/layout/west.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="1804">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21428572" vertical-offset="176" max-vertical-offset="484">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/msg_log/msg_log.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.64285713" vertical-offset="528" max-vertical-offset="1628">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/common/utils/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1034">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/keyword_action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4159292" vertical-offset="6261" max-vertical-offset="7392">
-          <caret line="291" column="52" selection-start-line="291" selection-start-column="52" selection-end-line="291" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/msg_action/keyword_action.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143" vertical-offset="132" max-vertical-offset="1518">
-          <caret line="10" column="126" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/admin-menu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097" vertical-offset="1386" max-vertical-offset="3014">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/DataDictController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1408">
@@ -2385,13 +2292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/ReqMsgLogEntoty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26988637" vertical-offset="345" max-vertical-offset="2574">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.969697" vertical-offset="2167" max-vertical-offset="2530">
@@ -2403,14 +2303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="2530">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/msg_log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5851064" vertical-offset="2508" max-vertical-offset="3916">
-          <caret line="124" column="25" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2510,8 +2402,8 @@
         <state vertical-scroll-proportion="0.33238637" vertical-offset="1181" max-vertical-offset="2706">
           <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
           <folding>
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="false" />
+            <element signature="e#2090#2091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2538,13 +2430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/ReqMsgLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62857145" vertical-offset="0" max-vertical-offset="1232">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/MsgTemplateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33246753" vertical-offset="92" max-vertical-offset="550">
@@ -2563,21 +2448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2634408" vertical-offset="2824" max-vertical-offset="4664">
           <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/WechatUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5714285" vertical-offset="1177" max-vertical-offset="1562">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -2585,23 +2455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5428572" vertical-offset="264" max-vertical-offset="1584">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/common/inc/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="418">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.625" vertical-offset="0" max-vertical-offset="1914">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2609,7 +2462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7590" max-vertical-offset="10406">
           <caret line="348" column="30" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2617,70 +2469,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.168116" vertical-offset="403" max-vertical-offset="748">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/common/inc/display.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="814">
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="814">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/display/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.032258" vertical-offset="1538" max-vertical-offset="1870">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1538" max-vertical-offset="1870">
           <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/display/bind.js">
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/common/inc/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1518">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.48985508" vertical-offset="73" max-vertical-offset="418">
+          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/extmenu/bindPhone.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.548388" vertical-offset="922" max-vertical-offset="1518">
+        <state vertical-scroll-proportion="1.2650602" vertical-offset="922" max-vertical-offset="1518">
           <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/admin-menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19130434" vertical-offset="1452" max-vertical-offset="3168">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/UserFundEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6051136" vertical-offset="543" max-vertical-offset="1100">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.9375" vertical-offset="330" max-vertical-offset="1100">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67287236" vertical-offset="605" max-vertical-offset="1056">
+          <caret line="43" column="69" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/searchBind.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="572">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/view/wechat/admin/fund/fund.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.612903" vertical-offset="1318" max-vertical-offset="1914">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state vertical-scroll-proportion="1.9879518" vertical-offset="396" max-vertical-offset="1914">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/UserFundServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1753" max-vertical-offset="2354">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/UserFundBindEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1210">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/msg_log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="3916">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/ReqMsgLogEntoty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66333336" vertical-offset="196" max-vertical-offset="2574">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/ReqMsgLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66" vertical-offset="66" max-vertical-offset="1232">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/service/WechatUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1562">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="6424">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/entity/WechatUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="3454">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/FundController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1474">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/catalina.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9433963" vertical-offset="993892" max-vertical-offset="994202">
+          <caret line="45184" column="166" selection-start-line="45184" selection-start-column="158" selection-end-line="45184" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/searchBind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1391" max-vertical-offset="2002">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/static/script/display/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7606383" vertical-offset="0" max-vertical-offset="1518">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/static/script/admin/fund.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7293" max-vertical-offset="7656">
-          <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fjx/wechat/base/admin/action/FundController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5638298" vertical-offset="476" max-vertical-offset="1100">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state vertical-scroll-proportion="-1.6969697" vertical-offset="1914" max-vertical-offset="7656">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="48" />
           <folding />
         </state>
       </provider>
