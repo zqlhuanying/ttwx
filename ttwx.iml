@@ -83,39 +83,6 @@
         </sourceRoots>
       </configuration>
     </facet>
-    <facet type="Spring" name="Spring2">
-      <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-db.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-aop.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-mvc.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-beans.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-email.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-scheduled.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-webservice.xml</file>
-          <file>file://$MODULE_DIR$/out/artifacts/ttwx/WEB-INF/classes/spring-mvc-interceptor.xml</file>
-          <file>file://$MODULE_DIR$/config/spring.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-db.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-aop.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-mvc.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-beans.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-email.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-scheduled.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-webservice.xml</file>
-          <file>file://$MODULE_DIR$/config/spring-mvc-interceptor.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-db.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-aop.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-mvc.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-beans.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-email.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-scheduled.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-webservice.xml</file>
-          <file>file://$MODULE_DIR$/WebRoot/WEB-INF/classes/spring-mvc-interceptor.xml</file>
-        </fileset>
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/WebRoot/WEB-INF/classes" />
