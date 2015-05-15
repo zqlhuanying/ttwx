@@ -10,7 +10,7 @@ var datagrid;
 $(function(){
 	
 	init();
-	
+
 });
 
 
@@ -239,7 +239,7 @@ function editMsgAction(id){
 			return false;
 		} else if (rows.length == 1) {
 			row = rows[0];
-		}	
+		}
 	}
 	if(!row){
 		datagrid.datagrid('unselectAll');
@@ -261,7 +261,7 @@ function editMsgAction(id){
 		}else if(msgType == "news"){	//图文消息
 			tabIndex = 4;
 		}
-		
+
 	}else if(row.action_type == 'api'){
 		tabIndex = 5;
 		if (row.app_id) {
@@ -323,9 +323,9 @@ function view (id){
 		}
 	}
 	$("#viewDiv").html(viewHtml);
-	
+
 	viewDialog.dialog({
-		title:"用户发送文字消息【"+row.key_word+"】将收到以下回复"		
+		title:"用户发送文字消息【"+row.key_word+"】将收到以下回复"
 	}).dialog("open");
-	
+
 }

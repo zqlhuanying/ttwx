@@ -9,7 +9,9 @@
 	<form id="msgActionForm" method="post" onsubmit="return false;">
  		<!-- 这个参数区分是更新还是保存 -->
  		<input type="hidden" id="editType" name="editType" value="">
- 		
+        <!-- 这个参数区分是否有设置动作 -->
+        <input type="hidden" id="setType" name="setType" value="">
+
  		<input type="hidden" id="msgActionId" name="id" value="">
  		<input type="hidden" id="extType" name="ext_type" value="">
  		<input type="hidden" id="msgReqType" name="req_type" value="">
@@ -119,6 +121,19 @@
 			    </div>
 		    </div>
         </div>
+
+        <c:if test="${ !('hide' eq param.tag_none) }">
+            <div title="<span class='tt-inner tab_none'>不设置动作</span>">
+                <c:if test="${ !('hide' eq param.btn_return) }">
+                    <span class="btn btn_input btn_default">
+                        <button onclick="showActionContent('action_index');">返回</button>
+                     </span>
+                </c:if>
+                <span class="btn btn_input btn_primary">
+                    <button onclick="submitMsgActionForm('none');">保存</button>
+                </span>
+            </div>
+        </c:if>
     </div>
     
     <div id="materialDialog" style="display: none;">

@@ -35,7 +35,7 @@ public class AdminInterceptor implements HandlerInterceptor {
 		HttpSession session = request.getSession();
 		SysUserEntity user = (SysUserEntity) session.getAttribute(AppConfig.LOGIN_FLAG);
 		//登陆超时
-		if(null == user){		
+		if(null == user){
 			if(WebUtil.validAjax(request)){
 				request.getRequestDispatcher("/common/loginTimeoutAjax").forward(request,response);
 			}else{

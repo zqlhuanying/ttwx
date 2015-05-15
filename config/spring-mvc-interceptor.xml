@@ -5,13 +5,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/mvc
-	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+	http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 
     <!-- 拦截匹配URL -->
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/admin"/>
             <mvc:mapping path="/admin/**"/>
+            <mvc:exclude-mapping path="/admin/extmenu/**"/>
             <bean class="com.fjx.wechat.base.admin.interceptor.AdminInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>

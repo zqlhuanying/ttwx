@@ -18,7 +18,7 @@
 	System.out.println("上传图片开始");
 	String currentPath = request.getRequestURI().replace(request.getContextPath(), "");
 	String mySavePath = AppConfig.STATIC_PATH;
-	
+
 	File currentFile = new File(currentPath);
 	//为了解决tomcat与jetty之间的差异问题，如果不转换jetty会出问题
 	currentPath = (currentFile.getParent() + File.separator).replace("\\", "/");
@@ -28,7 +28,7 @@
 			.getRealPath(currentPath + "config.properties");
 	
 	Properties properties = new Properties();
-	
+
 	try {
 		properties.load(new FileInputStream(propertiesPath));
 	} catch (Exception e) {
@@ -88,11 +88,11 @@
     // 在sping-mvc.xml设置<mvc:resource/>属性来完成URL映射
 	dir = "/upload/images/" + dir;
 	up.setSavePath(dir);
-	up.setMySavePath(mySavePath);  //非站点服务器目录
+	//up.setMySavePath(mySavePath);
 	String[] fileType = { ".gif", ".png", ".jpg", ".jpeg", ".bmp" };
 	up.setAllowFiles(fileType);
 	up.setMaxSize(500 * 1024); //单位KB
-	up.myUpload(false);//true:上传到非站点服务器（apache静态资源服务器）；false:上传到站点服务器
+    up.myUpload(false);//true:上传到非站点服务器（apache静态资源服务器）；false:上传到站点服务器
 	String resObject = "{'url':'" + up.getUrl() + "','fileType':'" + up.getType() + "','fileName':'" + up.getFileName()+"','title':'" + up.getTitle()
 			+ "','state':'" + up.getState() + "','original':'" + up.getOriginalName() + "'}";
 	System.out.println("图片上传返回参数："+resObject);

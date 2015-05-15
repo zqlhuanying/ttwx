@@ -15,7 +15,7 @@
 	<mvc:resources location="/plugin/ueditor/" mapping="/plugin/ueditor/**" />
 	<mvc:resources location="/selvet/" mapping="/selvet/**" />
     <!-- 匹配由FreeMarker所生成的Html页面 -->
-    <mvc:resources location="/wechat/upload/html/material/" mapping="/wechat/html/material/**" />
+    <mvc:resources location="/wechat/upload/html/material/" mapping="/wechat/upload/html/material/**" />
     <!-- 匹配上传图片路径 -->
     <mvc:resources location="/wechat/upload/images/" mapping="/wechat/upload/images/**" />
 

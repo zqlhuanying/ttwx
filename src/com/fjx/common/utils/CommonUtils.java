@@ -131,7 +131,7 @@ public final class CommonUtils {
      * @return
      */
     public static String getUploadPath(HttpServletRequest request) {
-        String baseUrl = "wechat/upload";
+        String baseUrl = "wechat";
         try {
             return WebUtils.getRealPath(request.getSession().getServletContext(), "/") + baseUrl;
         } catch (FileNotFoundException e) {

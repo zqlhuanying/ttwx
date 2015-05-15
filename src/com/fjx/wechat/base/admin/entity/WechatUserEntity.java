@@ -138,7 +138,7 @@ public class WechatUserEntity extends ToStringBase {
 		this.country = country;
 	}
 
-	public String getProvince() {
+    public String getProvince() {
 		return province;
 	}
 
