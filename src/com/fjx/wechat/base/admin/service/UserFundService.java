@@ -22,16 +22,16 @@ public interface UserFundService extends IBaseAbstractService{
     public String loadUserFundByOpenId(String openid);
 
     /**
-     * 判断是否绑定手机号
+     * 判断是否绑定公积金账号
      * @return
      */
-    public Boolean isBindPhone(WechatUserEntity wechatUserEntity);
+    public Boolean isBindAccount(WechatUserEntity wechatUserEntity);
 
     /**
-     * 判断是否绑定手机号
+     * 判断是否绑定公积金账号
      * @return
      */
-    public Boolean isBindPhone(String openid);
+    public Boolean isBindAccount(String openid);
 
     /**
      * 分页查询公积金信息

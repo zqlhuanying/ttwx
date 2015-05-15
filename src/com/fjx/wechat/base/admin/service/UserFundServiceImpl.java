@@ -43,29 +43,29 @@ public class UserFundServiceImpl extends BaseAbstractService implements UserFund
     }
 
     /**
-     * 判断是否绑定手机号
-     * 若用户手机号不存在，则视为未绑定
+     * 判断是否绑定公积金账号
+     * 若公积金账号不存在，则视为未绑定
      * @return
      */
     @Override
-    public Boolean isBindPhone(WechatUserEntity wechatUserEntity){
+    public Boolean isBindAccount(WechatUserEntity wechatUserEntity){
         String hql = "from UserFundBindEntity u where u.wechatUserEntity = ?";
         UserFundBindEntity userFundBindEntity = (UserFundBindEntity)findOneByHql(hql, wechatUserEntity);
-        if(userFundBindEntity != null && StringUtils.isNotBlank(userFundBindEntity.getPhone()))
+        if(userFundBindEntity != null && StringUtils.isNotBlank(userFundBindEntity.getFund_account()))
             return true;
         return false;
     }
 
     /**
-     * 判断是否绑定手机号
-     * 若用户手机号不存在，则视为未绑定
+     * 判断是否绑定公积金账号
+     * 若公积金账号不存在，则视为未绑定
      * @return
      */
     @Override
-    public Boolean isBindPhone(String openid){
+    public Boolean isBindAccount(String openid){
         String hql = "from WechatUserEntity w where w.openid = ?";
         WechatUserEntity wechatUserEntity = (WechatUserEntity)findOneByHql(hql, openid);
-        return isBindPhone(wechatUserEntity);
+        return isBindAccount(wechatUserEntity);
     }
 
     @Override
