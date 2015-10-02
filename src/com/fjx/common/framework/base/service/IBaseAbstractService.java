@@ -90,6 +90,65 @@ public interface IBaseAbstractService<T> {
 	public <X> X load(Class<X> entityClass, Serializable id);
 	
 	/**
+     	 *
+     	 * @param id
+     	 * @return 泛型指向之外的实
+     	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public T get(Serializable id);
+
+    	/**
+     	 *
+     	 * @param entityClass
+     	 * @param id
+     	 * @return 泛型指向之外的实
+     	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public <X> X get(Class<X> entityClass, Serializable id);
+
+    	/**
+	 * 根据任意字段查询
+     	 * @param parameters
+     	 * @return 泛型指向之外的实
+      	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public T getOne(Object... parameters);
+
+    	/**
+     	 * 根据任意字段查询
+     	 * @param entityClass
+     	 * @param parameters
+     	 * @return 泛型指向之外的实
+     	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public <X> X getOne(Class<X> entityClass, Object... parameters);
+
+    	/**
+     	 * 根据任意字段查询
+     	 * 参数的形式：columnName, columnValue, columnName, columnValue...
+     	 * @param parameters
+     	 * @return 泛型指向之外的实
+     	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public List<T> getList(Object... parameters);
+
+    	/**
+     	 * 根据任意字段查询
+     	 * 参数的形式：columnName, columnValue, columnName, columnValue...
+     	 * @param parameters
+     	 * @param entityClass
+     	 * @return 泛型指向之外的实
+     	 * @throws HibernateException
+     	 * @throws SQLException
+     	 */
+    	public <X> List<X> getList(Class<X> entityClass, Object... parameters);
+    
+	/**
 	 * 根据hql查询单条记录
 	 * @param hql
 	 * @param parameters
