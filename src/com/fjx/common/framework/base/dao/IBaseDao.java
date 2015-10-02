@@ -70,6 +70,36 @@ public interface IBaseDao {
 	public <X> X load(Class<X> entityClass, Serializable pk);
 	
 	/**
+	 *
+	 * @param entityClass
+	 * @param pk
+	 * @param <X>
+	 * @return
+	 */
+	public <X> X get(Class<X> entityClass, Serializable pk);
+
+    	/**
+     	* 根据任意字段查询
+     	* @param entityClass
+     	* @param parameters
+     	* @return 泛型指向之外的实
+     	* @throws HibernateException
+     	* @throws SQLException
+     	*/
+    	public <X> X getOne(Class<X> entityClass, Object... parameters);
+
+    	/**
+     	* 根据任意字段查询
+     	* 参数的形式：columnName, columnValue, columnName, columnValue...
+     	* @param entityClass
+     	* @param parameters
+     	* @return 泛型指向之外的实
+     	* @throws HibernateException
+     	* @throws SQLException
+     	*/
+    	public <X> List<X> getList(Class<X> entityClass, Object... parameters);
+    
+	/**
 	 * 根据hql查询单条记录
 	 * @param hql
 	 * @param parameters
