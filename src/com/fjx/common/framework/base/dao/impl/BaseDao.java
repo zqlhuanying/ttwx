@@ -182,6 +182,86 @@ public class BaseDao implements IBaseDao {
 	}
 
 	@Override
+	public <X> X get(Class<X> entityClass, Serializable pk) {
+		if(null == pk || "".equals(pk)){
+			return null;
+		}
+		return (X) getCurrentSession().get(entityClass, pk);
+	}
+
+    	/*@Override
+    	public <X> X getOne(Class<X> entityClass, Serializable columnName, Serializable columnValue){
+        	String hql = "from " + entityClass.getName() + " where " + columnName + " = ?";
+        	Query q = createMyQuery(hql, true, columnValue);
+        	q.setMaxResults(1);
+        	List list = q.list();
+        	if (null != list && list.size() > 0) {
+            		return (X) list.get(0);
+        	}
+        	return null;
+    	}*/
+
+    	@Override
+    	public <X> X getOne(Class<X> entityClass, Object... parameters){
+        	if(parameters.length == 0){
+            		throw new IllegalArgumentException("必须设置参数");
+        	}
+        	if(parameters.length % 2 != 0){
+            		throw new IllegalArgumentException("长度必须为偶数");
+        	}
+        	// 字段数组
+        	Object[] columnNames = new Object[parameters.length / 2];
+        	// 字段值数组
+        	Object[] columnValues = new Object[parameters.length / 2];
+        	for(int i = 0; i < parameters.length; i += 2){
+            		columnNames[i / 2] = parameters[i];
+            		columnValues[i / 2] = parameters[i + 1];
+        	}
+        	StringBuffer sb = new StringBuffer();
+        	sb.append("from " + entityClass.getName() + " where ");
+        	for(Object columnName : columnNames){
+            		sb.append(columnName + " = ? and ");
+        	}
+        	// 去掉最后一个and
+        	int index = sb.lastIndexOf("and");
+        	String hql = sb.substring(0, index);
+        	Query q = createMyQuery(hql, true, columnValues);
+        	q.setMaxResults(1);
+        	List list = q.list();
+        	if (null != list && list.size() > 0) {
+            		return (X) list.get(0);
+        	}
+        	return null;
+    	}
+
+    	@Override
+    	public <X> List<X> getList(Class<X> entityClass, Object... parameters){
+        	if(parameters.length == 0){
+            		throw new IllegalArgumentException("必须设置参数");
+        	}
+        	if(parameters.length % 2 != 0){
+            		throw new IllegalArgumentException("长度必须为偶数");
+        	}
+        	// 字段数组
+        	Object[] columnNames = new Object[parameters.length / 2];
+        	// 字段值数组
+        	Object[] columnValues = new Object[parameters.length / 2];
+        	for(int i = 0; i < parameters.length; i += 2){
+        	    columnNames[i / 2] = parameters[i];
+        	    columnValues[i / 2] = parameters[i + 1];
+        	}
+        	StringBuffer sb = new StringBuffer();
+        	sb.append("from " + entityClass.getName() + " where ");
+        	for(Object columnName : columnNames){
+        	    sb.append(columnName + " = ? and ");
+        	}
+        	// 去掉最后一个and
+        	int index = sb.lastIndexOf("and");
+        	String hql = sb.substring(0, index);
+        	return createMyQuery(hql, true, columnValues).list();
+    	}
+    
+	@Override
 	public <X> X findOneByHql(final String hql, final Object... parameters)	{
 		return findOne(hql, true, parameters);
 	}
